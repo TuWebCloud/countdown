@@ -6,10 +6,30 @@
 
 body {
 	background: #0c0c0c;
-	color: #d1ce22;
+	color: #f4bd0a;
     font-family: 'Work Sans', sans-serif;
 }
 
+h1 {	
+	text-shadow: 0 0 20px #f4bd0a;
+}
+
+h2 {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 0 10px;
+}
+h2 span {
+	font-weight: 900;
+	letter-spacing: 4px;
+}
+
+p {
+	margin-top: 50px;
+	color: #888888;
+	font-weight: 100;
+}
 
 
 /* ? ----- PORTADA ----- */
@@ -36,7 +56,7 @@ body {
 }
 
 .portada .header {
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
@@ -75,11 +95,11 @@ main {
 }
 
 .simply-section {
-	background: #5a0707;
+	background-color: #ffffff22;
+	border-radius: 20px;
 	width: 180px;
 	height: 180px;
 	margin: 0 20px;
-	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;

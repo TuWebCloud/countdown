@@ -109,11 +109,13 @@ main {
 	display: block;
 	font-size: 50px;
 	font-weight: 700;
+	color: #ddd;
 }
 
 .simply-word {
 	font-weight: 300;
 	font-size: 30px;
+	color: #dddddd77;
 }
 
 
